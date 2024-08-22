@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .logo {
+            color: #ff385c;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .search-bar input {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 25px;
+        }
+        .search-button {
+            background-color: #ff385c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .category {
+            text-align: center;
+        }
+        .listings {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .listing {
+            width: 23%;
+            margin-bottom: 20px;
+        }
+        .listing img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">airbnb</div>
+        <nav>
+            <a href="#">Stays</a>
+            <a href="#">Experiences</a>
+            <a href="#">Airbnb your home</a>
+        </nav>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Where">
+        <input type="text" placeholder="Check in">
+        <input type="text" placeholder="Check out">
+        <input type="text" placeholder="Who">
+        <button class="search-button">Search</button>
+    </div>
+
+    <div class="categories">
+        <div class="category">Icons</div>
+        <div class="category">Cabins</div>
+        <div class="category">Beachfront</div>
+        <div class="category">Amazing pools</div>
+        <div class="category">Design</div>
+        <!-- Add more categories as needed -->
+    </div>
+
+    <div class="listings">
+        <div class="listing">
+            <img src="placeholder1.jpg" alt="Listing 1">
+            <h3>Sleepover at Polly Pocket's Compact</h3>
+            <p>Hosted by Polly Pocket</p>
+            <p>£68 per guest</p>
+        </div>
+        <div class="listing">
+            <img src="placeholder2.jpg" alt="Listing 2">
+            <h3>Playdate at Polly Pocket's Compact</h3>
+            <p>Hosted by Polly Pocket</p>
+            <p>£27 per guest</p>
+        </div>
+        <!-- Add more listings as needed -->
+    </div>
+</body>
+</html>
